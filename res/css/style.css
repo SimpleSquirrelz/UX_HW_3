@@ -88,19 +88,7 @@ p {
     to { opacity: 1; }
 }
 
-@keyframes glitch {
-    0% { transform: skew(0deg); }
-    10% { transform: skew(2deg); }
-    20% { transform: skew(-2deg); }
-    30% { transform: skew(1deg); }
-    40% { transform: skew(-1deg); }
-    50% { transform: skew(2deg); }
-    60% { transform: skew(-2deg); }
-    70% { transform: skew(1deg); }
-    80% { transform: skew(-1deg); }
-    90% { transform: skew(2deg); }
-    100% { transform: skew(0deg); }
-}
+
 
 @keyframes background-flicker {
     0%, 100% { background-color: #1C2B39; }
