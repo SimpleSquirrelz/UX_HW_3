@@ -1,17 +1,15 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1C2B39; /* Dark navy background */
+    background-color: #1C2B39;
     color: #333333;
     font-family: 'Lato', sans-serif;
     overflow: hidden;
@@ -19,7 +17,6 @@ body {
     background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');
 }
 
-/* Error Container */
 .error-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
@@ -33,7 +30,6 @@ body {
     animation: slight-fade 1s ease-in;
 }
 
-/* Halloween Decorations */
 .error-container::before {
     content: "🦇";
     position: absolute;
@@ -63,7 +59,6 @@ h1 {
     position: relative;
 }
 
-/* Body Text */
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -72,7 +67,6 @@ p {
     animation: text-flicker 2s infinite;
 }
 
-/* Buttons */
 .buttons button {
     background-color: #D9534F;
     color: #FFFFFF;
@@ -86,7 +80,6 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Secondary Button */
 .buttons button:nth-child(2) {
     background-color: transparent;
     color: #D9534F;
@@ -94,7 +87,7 @@ p {
 }
 
 .buttons button:hover {
-    background-color: #FF8C00; /* Orange for Halloween */
+    background-color: #FF8C00;
     color: #FFFFFF;
 }
 
@@ -144,7 +137,6 @@ p {
     100% { transform: translateY(15px); }
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     h1 {
         font-size: 28px;
